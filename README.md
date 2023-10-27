@@ -1,6 +1,7 @@
 # PictureEditor
 Take bmp files and duplicate with a requested filer
 
+To execute:
 gcc -o myprogram BreenFilter.c PixelProcessor.c BmpProcessor.c -pthread
 myprogram.exe -o out.bmp -i in.bmp -f b
 
